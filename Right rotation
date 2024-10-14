@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,n,r;
+    scanf("%d %d",&n,&r);
+    int arr[n];
+    a=n-r;
+    printf("s - r =%d\n",a);
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    for(int i=a;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    for(int j=0;j<a;j++){
+        printf("%d ",arr[j]);
+    }
+}
